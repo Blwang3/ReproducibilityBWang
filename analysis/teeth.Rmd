@@ -28,6 +28,17 @@ mean(teeth$len[supp_perm == 'OJ']) - mean(teeth$len[supp_perm == 'VC'])
 ```
 
 wflow_publish("analysis/teeth.Rmd", message = "Analyze teeth growth")
+#commits teeth.Rmd changes to html
+#wflow_status checks the rest of your files for commits (published), so now publish them as well using the same publish command
+#publish basically tells git to store snapshots of these files, a publish/commit can be returned to in the future 
 
 wflow_use_github("blwang3")
+#connects this project to your github
+
+wflow_publish(republish = TRUE)
+#adds a few convenient links that will work nicely with github, can run this step earlier in the process too
+
+wflow_git_push()
+#pushes your changes to your github that you just linked
+#Now we want to make sure our new pushed github repository looks like a nice website - go to settings, scroll down to GitHub pages, change settings to 'master' and 'docs' and SAVE. Then scroll back down and click on the URL and you should be directed to your website!
 

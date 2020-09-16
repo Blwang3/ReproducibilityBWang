@@ -24,3 +24,4 @@ Welcome to my research website.
 * [Teeth growth analysis](teeth.html)
 
 #the * just tells us this is a bullet point
+#then wflow_build() again to build the changes and wflow_publish('analysis/index.Rmd', message = 'Adding links) to commit
