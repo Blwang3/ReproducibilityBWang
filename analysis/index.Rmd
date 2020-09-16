@@ -26,3 +26,6 @@ Welcome to my research website.
 #the * just tells us this is a bullet point
 #then wflow_build() again to build the changes and wflow_publish('analysis/index.Rmd', message = 'Adding links) to commit
 #use wflow_status to double check everything is fine, then wflow_git_push() to push your new version to github
+
+* [Reproducibility Challenge - Idongesit's Page](https://idonge3.github.io/myproject/)
+
