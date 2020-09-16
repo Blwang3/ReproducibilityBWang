@@ -12,11 +12,15 @@ Welcome to my research website.
 #wflow_g_config() gives information on what git this project is attached to
 #wflow_open('analysis/index.rmd') builds an rmd file for this project
 
-write.csv(ToothGrowth, file = 'data/teeth.csv')
+#write.csv(ToothGrowth, file = 'data/teeth.csv')
 #writing ToothGrowth data provided by rstudio to a csv, written into data folder
 #data(), summary(), str() with ToothGrowth in brackets allows quick breakdown visualization of data
 
-wflow_open('analysis/teeth.Rmd')
+#wflow_open('analysis/teeth.Rmd')
 
 #use wflow_build(), basically the same as knit
-wflow_build()
+#wflow_build()
+
+* [Teeth growth analysis](teeth.html)
+
+#the * just tells us this is a bullet point
