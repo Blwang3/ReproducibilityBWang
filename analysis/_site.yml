@@ -1,7 +1,7 @@
-name: "ReproductibilityBWang"
+name: ReproductibilityBWang
 output_dir: ../docs
 navbar:
-  title: "ReproductibilityBWang"
+  title: ReproductibilityBWang
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/blwang3/ReproductibilityBWang
 output:
   workflowr::wflow_html:
     toc: yes
