@@ -29,3 +29,5 @@ mean(teeth$len[supp_perm == 'OJ']) - mean(teeth$len[supp_perm == 'VC'])
 
 wflow_publish("analysis/teeth.Rmd", message = "Analyze teeth growth")
 
+wflow_use_github("blwang3")
+
